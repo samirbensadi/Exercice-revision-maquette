@@ -1,0 +1,33 @@
+@font-face {
+  src: url("./fonts/HelveticaNeueLTStd Lt.otf");
+}
+
+/****************************
+          RESET CSS
+*****************************/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/****************************
+          GENERAL
+*****************************/
+
+body {
+  font-family: "HelveticaNeueLTStd Lt";
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/****************************
+          SECTIONS
+*****************************/
