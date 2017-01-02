@@ -1,4 +1,4 @@
-nav {
+.headNav {
   height: 9.5em;
   width: 100%;
 
@@ -8,7 +8,7 @@ nav {
   align-items: center;
 }
 
-ul {
+.headNav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,12 +16,12 @@ ul {
   margin-right: 20.5em;
 }
 
-ul li {
+.headNav ul li {
   list-style-type: none;
   margin: 0.8em;
 }
 
-ul li a {
+.headNav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 1.13em;
@@ -30,12 +30,12 @@ ul li a {
   border-radius: 5px;
 }
 
-ul li a:hover {
+.headNav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   transition: 1s;
 }
 
 
-nav img {
+.headNav img {
   margin-left: 21em;
 }

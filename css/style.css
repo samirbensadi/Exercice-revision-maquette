@@ -31,3 +31,30 @@ main {
 /****************************
           SECTIONS
 *****************************/
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4em;
+}
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 21em;
+  margin-top: 6em;
+}
+
+.titles h2 {
+  font-size: 3em;
+  font-weight: normal;
+  color: #5D5454;
+}
+
+.titles hr {
+  width: 50em;
+  background-color: #D8D4CA;
+  margin-left: 4em;
+}
