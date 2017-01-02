@@ -26,3 +26,7 @@
   color: #5D5454;
   font-size: 1.3em;
 }
+
+.folioNav a:focus {
+  color: #F57E37;
+}
